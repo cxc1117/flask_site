@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block background %}
+    <div class="hero" style="background-image: url('../static/images/hero_3.jpg')"></div>
+{% endblock %}
+{% block intro %}Welcome to the homepage{% endblock %}
+{% block body %}
+    Please choose one of the buttons <br>
+    {{ request.path }}
+{% endblock %}
